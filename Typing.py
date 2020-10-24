@@ -57,7 +57,7 @@ def textGenerator_Letters(length):
     # text = [x for x in text if (x.isalpha() or x in (' ', '.', ',','/',':') or x in "1234567890")]
     # text = ''.join(text)
 
-    letters = "fj "
+    letters = "dfjk "
     text = ""
     for i in range(length):
         text += random.choice(letters)
@@ -74,7 +74,7 @@ def paraGenerator():
     text = ''.join(text)
     return text
    
-text = textGenerator_Letters(length=100) + "|"
+text = textGenerator_Letters(length=20) + "|"
 # text = paraGenerator() +  "|"
 print(text)
 input = ""
