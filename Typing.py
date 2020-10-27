@@ -57,7 +57,7 @@ def textGenerator_Letters(length):
     # text = [x for x in text if (x.isalpha() or x in (' ', '.', ',','/',':') or x in "1234567890")]
     # text = ''.join(text)
 
-    letters = "dfjk "
+    letters = "dfjk"
     text = ""
     for i in range(length):
         text += random.choice(letters)
